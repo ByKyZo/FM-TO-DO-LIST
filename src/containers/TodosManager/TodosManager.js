@@ -118,8 +118,7 @@ const TodosManager = (props) => {
             <Droppable droppableId='todos'>
                 {(provided) => (
                     <ul className={styles.todos_list} {...provided.droppableProps} ref={provided.innerRef}>
-                            {localStorage.todo !== null ?
-                                todos.map((todo, index) => {
+                            {todos.map((todo, index) => {
                                     if (filter === 'All'){
 
                                         {return todoDisplay(todo,index)}
@@ -135,10 +134,8 @@ const TodosManager = (props) => {
                                             {return todoDisplay(todo,index)}
                                         }
                                     } 
-                                    return;
-                                })
-                            
-                            : <h1>vide</h1>}
+                                    return null;
+                                })}
                             {provided.placeholder}
                     </ul>
                 )}
