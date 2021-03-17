@@ -1,0 +1,19 @@
+.todos_manager{
+    width: 540px;
+    margin: 80px 10px;
+    position: relative;
+}
+
+.todos_manager > * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none; 
+}
+
+.todos_manager_content{
+    border-radius: 4px;
+    overflow: hidden;
+}

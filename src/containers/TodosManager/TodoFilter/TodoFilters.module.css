@@ -1,0 +1,48 @@
+.todo_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    color : var(--theme-menu);
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.2s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn:nth-child(2){
+    margin: 0 20px;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    color : var(--theme-menu-hover);
+}
+
+.filter{
+    font-weight: 900;
+    font-size: 1.03rem;
+}
+
+.todo_filter_mobile{
+    margin-top: 30px;
+}
+
+@media (max-width: 850px){
+    .todo_filter{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .btn:nth-child(2){
+        margin: 0;
+    }
+}
+
+.active{
+    color: hsl(220, 98%, 61%) !important;
+}

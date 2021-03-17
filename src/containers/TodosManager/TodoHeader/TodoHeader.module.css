@@ -1,0 +1,24 @@
+.todo_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.todo_title{
+    color: white;
+    font-size: 3.2rem;
+    letter-spacing: 15px;
+}
+
+.todo_toggleTheme{
+    background-color: transparent;
+    border: unset;
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: inherit;
+}   
+.todo_toggleTheme:hover{
+    transition: 0.3s;
+    transform: rotateZ(45deg);
+}   

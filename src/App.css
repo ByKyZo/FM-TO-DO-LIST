@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+html{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.App {
+    min-height: 100vh;
+    background-color: var(--theme-background);
+    background-image: var(--theme-background-image);
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.challengeByAlex{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    color: #544c6d;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.challengeByAlex a {
+    color: hsl(220, 98%, 61%);
+}

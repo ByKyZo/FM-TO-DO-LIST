@@ -1,0 +1,45 @@
+.todo_addTodo{
+    margin-bottom: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.todo_checker{
+    margin-right: 23px;
+}
+
+.todo_inputAddTodo{
+    border: none;
+    background-color: transparent;
+    height: 50%;
+    width: 100%;
+    color: var(--theme-text);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.fakeCheckMark{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--theme-border);
+    color: var(--theme-border) ;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.fakeCheckMark:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.fakeCheckMark:active{
+    transition: 0.1s;
+    transform: scale(0.7);
+}

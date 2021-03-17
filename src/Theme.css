@@ -1,0 +1,27 @@
+.Dark {
+    --theme-text : hsl(234, 39%, 85%);
+    --theme-background-app : hsl(235, 24%, 19%);
+    --theme-background : hsl(235, 21%, 11%);
+    --theme-background-image : url('./assets/bg-desktop-dark.jpg');
+    --theme-border : #383a4f;
+    --theme-menu : #5a5c75;
+    --theme-menu-hover : white;
+    --theme-checked-text : hsl(233, 14%, 35%);
+    --theme-checked-line : hsl(234, 11%, 52%);
+    --theme-input-shadow : rgb(21, 21, 21);
+    /* --theme-checkMark : #373a52; */
+}
+
+.Light{
+    --theme-text : hsl(235, 19%, 35%);
+    --theme-background-app :  hsl(0, 0%, 100%);
+    --theme-background : hsl(236, 33%, 92%);
+    --theme-background-image : url('./assets/bg-desktop-light.jpg');
+    --theme-border : #e6e5ea;
+    --theme-menu : #a4a4ac;
+    --theme-menu-hover : #424355;
+    /* --theme-checkMark : #e2e2e2; */
+    --theme-checked-text : hsl(233, 11%, 84%);
+    --theme-checked-line : hsl(236, 8%, 66%);
+    --theme-input-shadow : rgb(220, 220, 220);
+}

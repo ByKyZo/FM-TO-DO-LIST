@@ -1,0 +1,9 @@
+.item{
+    padding: 0 23px;
+    height: 65px; 
+    display: flex;
+    align-items: center;
+    background-color: var(--theme-background-app);
+    color: var(--theme-text);
+    width: 100%;
+}
