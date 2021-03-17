@@ -15,12 +15,12 @@ const TodosManager = (props) => {
     const [todoEdit , setTodoEdit] = useState('');
 
     const [todos , setTodos] = useLocalStorage('todo',[
-        {id : 1 , todo : 'Complete online JavaScript course', checked : false},
-        {id : 2 , todo : 'Jog around the park 3x' , checked : false},
-        {id : 3 , todo : '10 minutes meditation' , checked : false},
-        {id : 4 , todo : 'Read for 1 hour' , checked : false},
-        {id : 5 , todo : 'Pick up groceries' , checked : false},
-        {id : 6 , todo : 'Complete Todo App on Frontend Mentor' , checked : true},
+        {id : uuid() , todo : 'Complete online JavaScript course', checked : false},
+        {id : uuid() , todo : 'Jog around the park 3x' , checked : false},
+        {id : uuid() , todo : '10 minutes meditation' , checked : false},
+        {id : uuid() , todo : 'Read for 1 hour' , checked : false},
+        {id : uuid() , todo : 'Pick up groceries' , checked : false},
+        {id : uuid() , todo : 'Complete Todo App on Frontend Mentor' , checked : true},
     ])
 
     const [filter , setFilter] = useState('All');
