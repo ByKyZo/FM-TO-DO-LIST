@@ -121,17 +121,17 @@ const TodosManager = (props) => {
                             {todos.map((todo, index) => {
                                     if (filter === 'All'){
 
-                                        {return todoDisplay(todo,index)}
+                                        return todoDisplay(todo,index);
 
                                     } else if (filter === 'Active'){
                                         if (!todo.checked){
 
-                                            {return todoDisplay(todo,index)}
+                                            return todoDisplay(todo,index);
                                         }
                                     } else if (filter === 'Completed') {
                                         if (todo.checked){
                                             
-                                            {return todoDisplay(todo,index)}
+                                            return todoDisplay(todo,index);
                                         }
                                     } 
                                     return null;
